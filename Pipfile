@@ -11,6 +11,10 @@ fhirpathpy = {editable = true, ref = "feature/dsl", git = "https://github.com/be
 testscript-eval = {editable = true, git = "https://github.com/beda-software/testscript-eval-py"}
 pydantic = "*"
 notebook = "*"
+aiofiles = "*"
+jsonpath-ng = "*"
+pyyaml = "*"
+pyyaml-include = "*"
 
 [dev-packages]
 
