@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fhirpy = "*"
+ipykernel = "*"
+funcy = "*"
+fhirpathpy = {editable = true, ref = "feature/dsl", git = "https://github.com/beda-software/fhirpath-py"}
+testscript-eval = {editable = true, git = "https://github.com/beda-software/testscript-eval-py"}
+pydantic = "*"
+notebook = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
